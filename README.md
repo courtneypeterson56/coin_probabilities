@@ -9,6 +9,8 @@ coinprobabilities.py:
 
 
 
+
+coinflips.py:
 You flip a fair coin three times. Each flip is independent of the other flips. This program determines the probability of each event described below. (number correlates to function)
 1. The three flips have identical outcomes.
 2. Exactly two flips have identical outcomes.
