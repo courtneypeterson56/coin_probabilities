@@ -6,7 +6,7 @@ import numpy as np  # this is a universal shorthand for numpy
 import matplotlib.pyplot as plt
 import random
 
-"""Use 5000 trials to estimate the probabilities of...
+"""Used 5000 trials to estimate the probabilities of...
 
 You flip a fair coin three times. Each flip is independent of the other flips.
 This program determines the probability of each event described below.
@@ -20,8 +20,8 @@ This program determines the probability of each event described below.
     (except the first flip, which has no preceding flip).
 
 To use simulations for estimating the probability of an
-event, E, we can run n = 5000 trials and count the number of trials in which the event of interest,
-E, occurs. Let us call this number nE. Then, the ratio nE/n will be an estimate for P(E)."""
+event, E, I ran n = 5000 trials and then counted the number of trials in which the event of interest,
+E, occurs. This number is labeled nE. The ratio nE/n is an estimate for P(E)."""
 
 def probability1(n, p):
     nE1 = 0
