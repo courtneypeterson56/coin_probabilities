@@ -6,7 +6,7 @@ import numpy as np  # this is a universal shorthand for numpy
 import matplotlib.pyplot as plt
 
 def run_lengths(n, p):
-    """ Return a list of the run lengths in n tosses of a coin whose heads probability is p.
+    """ This returns a list of the run lengths in n tosses of a coin whose heads probability is p.
         Arguments:
         n--Number of tosses (a positive int),
         p--The probability of observing heads for any given toss (float between 0 and 1).
@@ -26,7 +26,7 @@ def run_lengths(n, p):
     return run_lengthslist
 
 def draw_hist_longest_run(n, p, trial_num, cumulative=False):
-    """Draw a histogram of the maximum run length in n tosses of
+    """Draws a histogram of the maximum run length in n tosses of
         a coin with a heads probability p.
         Arguments:
         n--Number of tosses (a positive int),
@@ -63,7 +63,7 @@ def draw_hist_longest_run(n, p, trial_num, cumulative=False):
 
 
 def draw_hist_num_runs(n, p, trial_num, cumulative=False): ##need to FIX!
-    """Draw a histogram of the number of runs in n tosses of a
+    """Draws a histogram of the number of runs in n tosses of a
     coin with a heads probability p.
     Arguments:
     n--Number of tosses (a positive int),
